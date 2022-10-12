@@ -1,0 +1,14 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int sq,n;
+	cout<<" enter th number positive number :";
+	cin>>n;
+	if(n<=0)
+	cout<<" invalid number ";
+	sq=sqrt(n);
+	cout<< " the squar root :"<<sq;
+	return 0;
+}
