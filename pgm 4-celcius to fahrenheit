@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	float cel,far;
+	cout<<" enter the temperature in celcious ";
+	cin>>cel;
+	far = (cel*1.8) + 32;
+	cout<<" the temperature in farhenhit "<<far<<endl;
+	return 0;
+}
