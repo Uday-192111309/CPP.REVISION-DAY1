@@ -1,0 +1,12 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int cube,n;
+	cout<<" enter th number positive number :";
+	cin>>n;
+	cube=cbrt(n);
+	cout<< " the squar root :"<<cube;
+	return 0;
+}
